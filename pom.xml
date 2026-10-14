@@ -7,7 +7,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>kz.javaworkshop</groupId>
-    <artifactId>inventory02</artifactId>
+    <artifactId>inventory03</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -27,6 +27,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.14.1</version>
+                <configuration>
+                    <release>21</release>
+                </configuration>
             </plugin>
 
             <plugin>
@@ -39,4 +42,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
